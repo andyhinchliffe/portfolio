@@ -1,0 +1,123 @@
+
+
+#mainimage{
+    width: 100%;
+    border-image-repeat: none;
+    align-items: center;
+background-image: url("images/image1080.jpg");
+object-fit: cover;
+height: 100%;
+background-size: 100% 100%;
+
+background-repeat: no-repeat;
+
+}
+
+/* .container-fluid{
+    margin: 0 !important;
+} */
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+margin-top: 100px;
+margin-left: 100px;
+font-size: 120px;
+font-family: 'Bebas Neue', sans-serif;
+color:  #847C54;
+width:80%;
+
+
+
+}
+
+.subTitle{
+    font-size: 17px;
+    margin-left: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #78706C;
+    width:80%;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+        overflow: hidden;
+    /* background-color: #000000; */
+  }
+
+  li a {
+    display: block;
+    color: #847C54;
+        font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin: 10px 12px;
+    text-decoration: none;
+    float: right;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    /* background-color: #333; */
+  }
+
+  #siteinfo{
+    margin: 10px 30px 40px 30px;
+    font-family: 'Bebas Neue', sans-serif;
+      }
+
+
+  #sitetitle{
+    margin: 10px 10px 10px 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+        
+      }
+
+      #sitelink {
+        margin-left: 30px;
+        font-size: 12px;  
+        color: black;
+        text-decoration: none; 
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: small;
+          }
+
+  #siteimage{
+        
+        margin: 40px 0px 40px 30px;
+        width: 100%;
+    }
+
+  
+
+    #copyinfo{
+      margin-top: 30px;
+      background-color: black;
+      color: #847C54;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: right;
+        width: 100%;
+        padding-right: 10px;
+        font-size: medium;
+        
+    }
+
+
+    #info{
+        padding: 30px 50px 30px 50px;
+    }
+
+    
+
+
+    
+
+   
+   
+
+ 
