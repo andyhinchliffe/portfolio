@@ -29,9 +29,12 @@ font-size: 120px;
 font-family: 'Bebas Neue', sans-serif;
 color:  #847C54;
 width:80%;
+}
 
-
-
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 70px;
+  }
 }
 
 .subTitle{
@@ -106,11 +109,99 @@ ul {
         font-size: medium;
         
     }
+    #copyinfo2{
+      margin-top: 0px;
+      background-color: black;
+      color: #847C54;
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: right;
+        width: 100%;
+        padding-right: 10px;
+        font-size: medium;
+        
+    }
 
 
     #info{
         padding: 30px 50px 30px 50px;
     }
+
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 1px; /* Add a top margin */
+  margin-bottom: 1px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 1px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=message], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 1px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #847C54;
+  color: darkgrey;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #a6cee5;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  width: 80%;
+  border-radius: 15px;
+  background-color: lightgray;
+  padding: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  
+  
+}
+
+
+.contact-container{
+  font-family: 'Barlow Condensed', sans-serif;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
 
     
 
