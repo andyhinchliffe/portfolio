@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #title, #middle, #navbar-top{
+  
+    font-family: Consolas,monaco,monospace; 
+    
+                                                     
+  }
+  
+  #aboutMe, #portfolioTitle{
+  
+    font-family: Consolas,monaco,monospace; 
+  }
+  
+  #navbar-top{
+  
+    /* color: #5F6F52; */
+  }
+  
+  #middle{
+    /* color: #B99470 */
+  }
+  
+  #title{
+  
+    
+  }
+  
+  
+  
+  #title{
+  
+      /* background-image: url("pexels-ron-lach-10526880.jpg");
+      background-size: cover;
+      background-repeat: no-repeat; */
+  }
+  
+  #article header {
+      /* display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px;
+      margin-bottom: 26px; */
+    }
+    
+    #article header h2 {
+      /* font-size: 20px; */
+    }
+    
+    #article #front,
+    #article #back {
+      position: absolute;
+      /* top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; */
+      /* text-align: center; */
+      backface-visibility: hidden;
+      /* background: #ffffff; */
+      /* border-radius: 10px; */
+      /* box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px; */
+      /* padding: 24px; */
+      transition: 0.8s;
+      cursor: pointer;
+    }
+    
+    #back {
+      transform: rotateY(180deg);
+    }
+    
+    input {
+      position: absolute;
+      scale: 0;
+    }
+    
+    input:checked ~ #article #back {
+      transform: rotateY(0);
+    }
+    
+    input:checked ~ #article #front {
+      transform: rotateY(-180deg);
+    }
+  
+    footer{
+  
+      font-family: Consolas,monaco,monospace; 
+    }
